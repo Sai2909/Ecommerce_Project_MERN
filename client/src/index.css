@@ -1,0 +1,124 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* navbar css*/
+.navbar {
+  font-family: 'Playfair Display' ,'serif';
+  font-size:'17px';
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray; 
+  --webkit-box-shadow:0 8px 6px -6px gray; 
+  border-bottom:solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight:700;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+}
+
+
+/*Footer css*/
+.footer {
+  color: white;
+  padding: 25px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover{
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba ;
+}
+
+
+
+/*Page Not Found Css*/
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+.pnf-heading{
+  font-weight: normal;
+}
+
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/*Contact us*/
+.contactus{
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conatct-icons{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+
+.conatct-icons  :hover{
+  width: auto;
+  color: #0c0b09;
+  border-bottom: 1px solid #080808 ;
+}
+
+
+/* Registerpage css */
+.register{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,15,20,0.8968837535014006) 35%, rgba(0,212,255,1) 100%);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}
