@@ -58,6 +58,16 @@ git commit -m "initial commit"
 git remote add origin https://
 git push origin master
 
+For Gradiant:
+https://cssgradient.io/
+For spinner:
+https://cssloaders.github.io/
+
+
+
+14th vedio for forget passowrd after 17min to start
+
+
 
 
 

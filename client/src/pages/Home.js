@@ -1,4 +1,3 @@
-import React, { useReducer } from 'react';
 import Layout from '../components/layout/Layout'
 import { useAuth } from '../context/auth'
 const Home = () => {

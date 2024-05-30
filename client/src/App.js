@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import PrivateRoute from './components/Routes/Private';
 import About from './pages/About';
 import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
@@ -7,6 +8,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Pagenotfound from './pages/Pagenotfound';
 import Policy from './pages/Policy';
+import Dashboard from './pages/user/Dashboard';
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/about' element={<About/>}></Route>
+      <Route path='/dashboard' element={<PrivateRoute/>}>
+      <Route path='' element={<Dashboard/>}></Route>
+      </Route>
       <Route path='/register' element={<Register/>}></Route>
       <Route path='/login' element={<Login/>}></Route>
       <Route path='/contact' element={<Contact/>}></Route>
