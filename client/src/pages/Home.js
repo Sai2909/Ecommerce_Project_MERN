@@ -10,7 +10,7 @@ const Home = () => {
             <h1>Welcome to Sai_TechInfo</h1>
             <h1>User Name:{name}</h1> 
              <h1>Email:{email}</h1>
-            <pre>{JSON.stringify(auth,null,4 )}</pre>
+            {/* <pre>{JSON.stringify(auth,null,4 )}</pre> */}
             </div>
            
         </Layout>
